@@ -14,7 +14,7 @@
 #include "phonebook.hpp"
 
 int main (){
-	std::string choice[3];
+	std::string choice[] = {"ADD", "SEARCH", "EXIT"};
 	int			i = 0;
 	std::string	option;
 	Contact		contacts[8];
@@ -29,29 +29,26 @@ int main (){
 	std::cout<<std::endl;
 	std::cout<<"3.- EXIT "<<std::endl;
 	std::cout<<std::endl;
-	std::cout<<"Your option : ";
 
-	std::cin>>option;
-	choice[0] = "ADD";
-	choice[1] = "SEARCH";
-	choice[2] = "EXIT";
-	while (option != choice[i] && i < 3)
-		i++;
 	while (1)
 	{
-
+		std::cout<<"Your option : ";
+		std::cin>>option;
+		while (option != choice[i] && i < 3)
+			i++;
+		std::cout<<i<<std::endl;
 		switch (i){
 		case 0:
 			reg.ft_add();break;
 		case 1:
 			reg.ft_search();break;
 		case 2:
-			break;
+			return (0);
 		case 3:
 			std::cout<<"Not a valid option, try again."<<std::endl;
 			break;
 		}
-//		exit(0);
+		i = 0;
 	}
 	return (0);
 }
