@@ -17,6 +17,7 @@ int main (){
 	std::string choice[3];
 	int			i = 0;
 	std::string	option;
+	Contact		contacts[8];
 	Phonebook	reg;
 
 	std::cout<<std::endl;	
@@ -33,23 +34,24 @@ int main (){
 	std::cin>>option;
 	choice[0] = "ADD";
 	choice[1] = "SEARCH";
-	choice[2] = "EXIT";	
+	choice[2] = "EXIT";
 	while (option != choice[i] && i < 3)
 		i++;
-	switch (i){
-	case 0:
-		reg.ft_add(contact);break;
-	case 1:
-		reg.ft_search(contact);break;
-	case 2:
-		break;
-	case 3:
-		std::cout<<"Not a valid option, try again."<<std::endl;
-		system("pause");
-//	default:
-//		break;
-	}
+	while (1)
+	{
 
-	system("pause");
+		switch (i){
+		case 0:
+			reg.ft_add();break;
+		case 1:
+			reg.ft_search();break;
+		case 2:
+			break;
+		case 3:
+			std::cout<<"Not a valid option, try again."<<std::endl;
+			break;
+		}
+//		exit(0);
+	}
 	return (0);
 }

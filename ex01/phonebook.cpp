@@ -1,17 +1,18 @@
 #include "phonebook.hpp"
+#include <iostream>
 
-Phonebook::Phonebook(int index, Contact contacts){
+Phonebook::Phonebook(){
 }
 
 Phonebook::~Phonebook(){
 }
 
-void Phonebook::ft_add(Contact contacts){
+void Phonebook::ft_add(void){
 
 
 }
 
-void Phonebook::ft_search(int index){
+void Phonebook::ft_search(void){
 
-	
+
 }

@@ -14,6 +14,8 @@
 # define PHONEBOOK_HPP
 
 #include "contact.hpp"
+#include <iostream>
+#include <string.h>
 
 class Phonebook{
 	private:
@@ -21,10 +23,9 @@ class Phonebook{
 		Contact contacts[8];
 		
 	public:
-		Phonebook(int, Contact);
+		Phonebook(void);
 		~Phonebook();
-		void ft_add(Contact contacts);
-		void ft_search(int index);
+		void ft_add(void);
+		void ft_search(void);
 };
-
 #endif
