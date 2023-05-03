@@ -17,7 +17,7 @@ int main (){
 	std::string choice[] = {"ADD", "SEARCH", "EXIT"};
 	int			i = 0;
 	std::string	option;
-	Contact		contacts[8];
+	//Contact		contacts[8];
 	Phonebook	reg;
 
 	std::cout<<std::endl;	
@@ -34,9 +34,10 @@ int main (){
 	{
 		std::cout<<"Your option : ";
 		std::cin>>option;
+		//std::cout<<option;
 		while (option != choice[i] && i < 3)
 			i++;
-		std::cout<<i<<std::endl;
+		//std::cout<<i<<std::endl;
 		switch (i){
 		case 0:
 			reg.ft_add();break;

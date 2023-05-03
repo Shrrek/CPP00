@@ -19,7 +19,7 @@
 
 class Phonebook{
 	private:
-		int	i;
+		int	index;
 		Contact contacts[8];
 		
 	public:
