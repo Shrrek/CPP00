@@ -20,18 +20,19 @@ int main (){
 	//Contact		contacts[8];
 	Phonebook	reg;
 
-	std::cout<<std::endl;	
-	std::cout<<"Select an option please: "<<std::endl;
-	std::cout<<std::endl;
-	std::cout<<"1.- ADD "<<std::endl;
-	std::cout<<std::endl;
-	std::cout<<"2.- SEARCH "<<std::endl;
-	std::cout<<std::endl;
-	std::cout<<"3.- EXIT "<<std::endl;
-	std::cout<<std::endl;
+
 
 	while (1)
 	{
+		std::cout<<std::endl;	
+		std::cout<<"Select an option please: "<<std::endl;
+		std::cout<<std::endl;
+		std::cout<<"1.- ADD "<<std::endl;
+		std::cout<<std::endl;
+		std::cout<<"2.- SEARCH "<<std::endl;
+		std::cout<<std::endl;
+		std::cout<<"3.- EXIT "<<std::endl;
+		std::cout<<std::endl;
 		std::cout<<"Your option : ";
 		std::cin>>option;
 		//std::cout<<option;

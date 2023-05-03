@@ -42,6 +42,10 @@ void Phonebook::ft_add(void){
 }
 
 void Phonebook::ft_search(void){
+	int i = 0;
 
-
+	for (int i = 0; i < index; i++){
+		std::cout<<i + 1<<" | ";
+		contacts[i].ft_PrintContact();
+	}
 }

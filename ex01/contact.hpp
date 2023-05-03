@@ -25,6 +25,10 @@ class Contact{
 		void setPhoneNumber(std::string numb);
 		std::string	getDarkestSecret(void) const;
 		void setDarkestSecret(std::string secre);
+
+		void ft_PrintContact(void);
+
+
 	};
 
 #endif
