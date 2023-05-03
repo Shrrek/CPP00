@@ -13,7 +13,7 @@ class Contact{
 
 	public:
 		Contact(void);
-		Contact(std::string fst, std::string last, std::string nick, std::string numb, std::string secre);
+		//Contact(std::string fst, std::string last, std::string nick, std::string numb, std::string secre);
 		~Contact(void);
 		std::string	getFirstName(void) const;
 		void setFirstName(std::string fst);

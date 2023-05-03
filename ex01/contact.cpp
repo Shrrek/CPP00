@@ -6,13 +6,13 @@ Contact::Contact(){
 
 }
 
-Contact::Contact(std::string fst, std::string last, std::string nick, std::string numb, std::string secre){
+/*Contact::Contact(std::string fst, std::string last, std::string nick, std::string numb, std::string secre){
     this->first_name = fst;
     this->last_name = last;
     this->nickname = nick;
     this->phone_number = numb;
     this->darkest_secret = secre;
-}
+}*/
 
 Contact::~Contact(){
 }
