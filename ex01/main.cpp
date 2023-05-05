@@ -6,7 +6,7 @@
 /*   By: jperales <jperales@student.42urduli>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/02 11:35:24 by jperales          #+#    #+#             */
-/*   Updated: 2023/05/02 11:35:33 by jperales         ###   ########.fr       */
+/*   Updated: 2023/05/03 13:16:37 by jperales         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,6 @@ int main (){
 		std::cout<<std::endl;
 		std::cout<<"Your option : ";
 		std::cin>>option;
-		//std::cout<<option;
 		while (option != choice[i] && i < 3)
 			i++;
 		//std::cout<<i<<std::endl;

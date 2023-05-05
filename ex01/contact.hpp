@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   contact.hpp                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jperales <jperales@student.42urduli>       +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/05/03 13:16:02 by jperales          #+#    #+#             */
+/*   Updated: 2023/05/03 13:16:06 by jperales         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef CONTACT_HPP
 # define CONTACT_HPP
 
@@ -27,6 +39,8 @@ class Contact{
 		void setDarkestSecret(std::string secre);
 
 		void ft_PrintContact(void);
+		void ft_ShowContact(void);
+		std::string ft_CheckString(std::string str);
 
 
 	};
